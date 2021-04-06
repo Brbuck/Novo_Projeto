@@ -110,6 +110,10 @@ nav.sticky li a{
         display: block;
     }
 
+    .toggle.none{
+        display: none;
+    }
+
     .sticky .toggle{
         color: #111;
     }
@@ -117,7 +121,7 @@ nav.sticky li a{
     .menu{
         position: fixed;
         flex-direction: column;
-        top: 80px;
+        top: 75px;
         left: 0px;
         width: 100%;
         height: 100%;
@@ -128,6 +132,14 @@ nav.sticky li a{
 
     .showmenu{
         transform: translateX(0);
+    }
+
+    .exit.showexit{
+        display: block;
+    }
+
+    .sticky .exit{
+        color: #111;
     }
 
     nav li a{
