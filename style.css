@@ -92,7 +92,7 @@ nav.sticky li a{
 
 .button{
     display: inline-block;
-    background-color: blueviolet;
+    background-color:#8A2BE2;
     color: #fff;
     padding: 20px 50px;
     border-radius: 8px;
@@ -127,6 +127,40 @@ nav.sticky li a{
     margin: 30px auto;
 }
 
+.features{
+    padding: 50px 150px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablet{
+    width: 600px;
+    transition: .6s ease;
+}
+
+.tablet:hover{
+    transform: translateY(-10px);
+}
+
+.context{
+    padding: 20px 100px;
+    
+}
+
+.context h2{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.context p{
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #696969;
+}
 
 
 
