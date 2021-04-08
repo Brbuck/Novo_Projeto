@@ -62,7 +62,7 @@ nav.sticky li a{
     color: #111;
 }
 
-.container{
+.header-container{
     background: url('Images/bg.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
@@ -75,7 +75,7 @@ nav.sticky li a{
     background-blend-mode: color;
 }
 
-.container h1{
+.header-container h1{
     text-align: center;
     font-size: 4rem;
     color: #fff;
@@ -83,7 +83,7 @@ nav.sticky li a{
     text-transform: uppercase;
 }
 
-.container p{
+.header-container p{
     text-align: center;
     font-size: 2rem;
     color: #fff;
@@ -104,6 +104,33 @@ nav.sticky li a{
 .button:hover{
     letter-spacing: 2px;
 }
+
+.clients-container{
+    padding: 30px 60px;
+}
+
+.clients-container h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo_clients{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 30px auto;
+}
+
+
+
+
+
 
 @media (max-width:780px){
     .toggle{
@@ -149,15 +176,15 @@ nav.sticky li a{
         margin-top: 40px;
     }
 
-    .container{
+    .header-container{
         padding: 50px;
     }
-    .container h1{
+    .header-container h1{
         font-size: 3rem;
         margin-top: 50px;
     }
 
-    .container p{
+    .header-container p{
         font-size: 1.5rem;
     }    
     
