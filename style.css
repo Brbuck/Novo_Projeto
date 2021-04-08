@@ -127,6 +127,14 @@ nav.sticky li a{
     margin: 30px auto;
 }
 
+.features{
+    padding: 30px 60px;
+    background-color: rgb(247, 247, 247);
+}
+
+.tablet{
+    width: 600px;
+}
 
 
 
