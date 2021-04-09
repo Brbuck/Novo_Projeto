@@ -128,7 +128,7 @@ nav.sticky li a{
 }
 
 .features{
-    padding: 50px 150px;
+    padding: 50px;
     background-color: rgb(247, 247, 247);
     display: flex;
     align-items: center;
@@ -136,7 +136,7 @@ nav.sticky li a{
 }
 
 .tablet{
-    width: 600px;
+    width: 500px;
     transition: .6s ease;
 }
 
@@ -145,8 +145,8 @@ nav.sticky li a{
 }
 
 .context{
-    padding: 20px 100px;
-    
+    padding: 20px;
+    width: 700px;
 }
 
 .context h2{
