@@ -162,23 +162,25 @@ nav.sticky li a{
     color: #696969;
 }
 
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    padding: 30px 50px;
+
+}
+
 .card{
     width: 300px;
     padding: 10px;
-    border: 1px solid black;
+   
 }
 
 .icons{
     width: 130px;
-    padding: 10px;
-    border: 5px solid blue;
-    border-radius: 80px;
     margin: auto;
-}
-
-.icons > img{
-    width: 90px;
-    margin-left: 5px;
 }
 
 .card h3{
