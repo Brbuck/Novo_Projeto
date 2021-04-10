@@ -105,7 +105,7 @@ nav.sticky li a{
     padding: 30px 60px;
 }
 
-.clients-container h1{
+.clients-container h2{
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
@@ -193,14 +193,21 @@ nav.sticky li a{
     text-align: center;
     
 }
+.gallery{
+    padding: 30px 60px;
+    margin-top: 60px;
+    background-color: rgb(247, 247, 247);
+}
 
-.gallery h3{
+.gallery h2{
     text-align: center;
-    
+    font-size: 3rem;
+    text-transform: uppercase;
+
 }
 
 .gallery-image{
-    width: 500px;
+    width: 90%;
 }
 
 .gallery-container{
@@ -209,7 +216,7 @@ nav.sticky li a{
     justify-items: center;
     align-items: center;
     gap: 20px;
-    padding: 50px;
+    
 }
 
 @media (max-width:998px){
@@ -227,6 +234,10 @@ nav.sticky li a{
 
     .tablet{
         margin: auto;
+    }
+
+    .gallery-container{
+        grid-template-columns: 1fr 1fr;
     }
 }
 
