@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body{
-    min-height: 1000px;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -77,7 +73,7 @@ nav.sticky li a{
 
 .header-container h1{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.8rem;
     color: #fff;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -85,7 +81,7 @@ nav.sticky li a{
 
 .header-container p{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     margin-bottom: 15px;
 }
@@ -116,7 +112,7 @@ nav.sticky li a{
 }
 
 .logo{
-    width: 150px;
+    width: 120px;
 }
 
 .logo_clients{
@@ -128,15 +124,17 @@ nav.sticky li a{
 }
 
 .features{
-    padding: 50px;
+    padding: 50px 120px;
     background-color: rgb(247, 247, 247);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
 
 .tablet{
-    width: 500px;
+    width: 90%;
+    min-width: 450px;
     transition: .6s ease;
 }
 
@@ -145,8 +143,9 @@ nav.sticky li a{
 }
 
 .context{
-    padding: 20px;
-    width: 700px;
+    width: 100%;
+    min-width: 400px;
+
 }
 
 .context h2{
@@ -195,6 +194,23 @@ section{
     
 }
 
+@media (max-width:998px){
+    .header-container h1{
+        font-size: 3rem;
+    }
+
+    .header-container p{
+        font-size:1.5rem;
+    }
+
+    .features{
+        grid-template-columns: 1fr;
+    }
+
+    .tablet{
+        margin: auto;
+    }
+}
 
 @media (max-width:780px){
     .toggle{
