@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -144,8 +145,6 @@ nav.sticky li a{
 
 .context{
     width: 100%;
-    min-width: 400px;
-
 }
 
 .context h2{
@@ -345,20 +344,83 @@ nav.sticky li a{
 
     .logo_clients{
         grid-template-columns: 1fr 1fr;
-    }   
+    }  
+    
+    .features{
+        padding: 50px;
+    }
 
     .logo{
         width: 80px;
     }
     .context h2{
-        font-size: 1.6rem; 
+        font-size: 2rem; 
     }
     
     .context p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .gallery-container{
+        grid-template-columns: 1fr;
     }
 
     .footer__container{
         grid-template-columns: 1fr;
+        text-align: center;
     }
+}
+
+@media (max-width: 650px){
+    .header-container h1{
+        font-size: 2.2rem;
+    }
+
+    .header-container p{
+        font-size:1.2rem;
+    }
+
+    .clients-container h2{
+        font-size: 2rem;
+    }
+
+    .context h2{
+        font-size: 1.6rem;
+    }
+
+}
+
+@media (max-width: 650px){
+    .header-container h1{
+        font-size: 1.8rem;
+    }
+
+    .header-container p{
+        font-size:1rem;
+    }
+
+    .clients-container h2{
+        font-size: 1.6rem;
+    }
+
+    .context h2{
+        font-size: 1.4rem;
+    }
+
+    .context p{
+        font-size: 1.1rem;
+    }
+
+    .card-container{
+        padding: 10px;
+    }
+
+    .card h3{
+        font-size: 1.5rem;
+    }
+
+    .card p{
+        font-size: 1.2rem;
+    }
+
 }
