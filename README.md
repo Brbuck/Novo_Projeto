@@ -10,9 +10,9 @@
 
 ## Imagens
 
-[Site:](https://www.pexels.com/pt-br/)
+Site da [Pexel](https://www.pexels.com/pt-br/)
 
 ## Autor
 
-**Bruno Ribeiro**: [Meu Git](https://github.com/Brbuck)
+**Bruno Ribeiro**: Meu Git: <https://github.com/Brbuck>
 
